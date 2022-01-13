@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.h1{
+    background: #a6a4a4;
+    padding: 30px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+.h2{
+    background: #0b9fec;
+    width: 1000px;
+    padding: 15px 0px 15px 0px;
+}
+.h3{
+    background: #30a935;
+    height: 250px;
+    width: 250px;
+    box-sizing: border-box;
+}
+.h4{background: #8e8ed2;
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+
+}
