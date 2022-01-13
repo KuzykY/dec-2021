@@ -1,0 +1,10 @@
+.cw{
+    background: #a6a4a4;
+    height: 300px;
+    width: 500px;
+    margin: 50px;
+    box-shadow: #ab8f8f -5px -41px 20px 0px
+}
+.cw1{
+    border-left: 4px solid red;
+}
