@@ -1,0 +1,25 @@
+body{
+    margin-left: 400px;
+}
+.w{
+    height: 200px;
+    width: 498px;
+    background:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fdfafa;
+}
+.box{
+    height: 400px;
+    width: 166px;
+    background:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fdfafa;
+    margin: 10px;
+}
+.w3{
+    display: flex;
+}
