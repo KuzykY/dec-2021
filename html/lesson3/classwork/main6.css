@@ -1,0 +1,41 @@
+body{
+    margin-left:  500px;
+}
+.wrap{
+    display:flex;
+
+}
+.w2{
+    height: 300px;
+    width: 170px;
+    background: #246abc;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.wk{
+    width: 350px;
+    height: 150px;
+    background: #246abc;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.wrap2{
+    display: flex;
+}
+.ws{
+    height: 110px;
+    width: 110px;
+    background: #246abc;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
