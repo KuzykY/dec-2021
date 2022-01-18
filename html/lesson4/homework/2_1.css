@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bg-blue{
+    background: blue;
+}
+.bglightblue{
+    background:#18467b;
+}
+
+.w470{
+    width: 470px;
+}
+.h200{
+    height: 200px;
+}
+.h400{
+    height: 400px;
+}
+.text{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap{
+    display: flex;
+}
+.w150{
+    width: 150px;
+}
+.marginleft{
+    margin-left: 10px;
+}
+.margintop{
+    margin-top: 10px;
+}
