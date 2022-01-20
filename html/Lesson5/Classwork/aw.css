@@ -106,12 +106,12 @@
 }
 
 .right7box {
-    width: 80%;
+    width: 150px;
     height: 15px;
 }
 
 .right7sbox {
-    width: 60%;
+    width: 120px;
     height: 15px;
 }
 
@@ -128,7 +128,10 @@
     .left {
         display: none;
     }
-
+    .boxright{
+        height: 90px;
+        width: 180px;
+    }
     .right3 {
         width: 200px;
         height: 100px;
