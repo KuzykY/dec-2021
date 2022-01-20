@@ -108,13 +108,62 @@ body{
     box-sizing: border-box;
 }
 .bigbox{
-    width: 100px;
+    width: 120px;
     height: 50px;
+    border-radius: 4px;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 .postcards{
     width: 150px;
-    border: 1px solid #3cc6ea;}
-.postcard{
+    border: 1px solid #3cc6ea;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+}
+h4{
+    margin: 5px;
+}
+p{
+    margin: 0px;
+}
+.bottomoptions{
+    border: 1px solid #3cc6ea;
     width: 150px;
-
+    height: 10px;
+    border-radius:0px 0px 4px 4px;
+    margin-left: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.xsbox{
+    height: 5px;
+    width: 15px;
+    margin-left: 5px;
+}
+.xsbox2{
+    height: 5px;
+    width: 5px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.xsboxd{
+    display: flex;
+}
+.postcards9{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.h600{
+    height: 600px;
 }
