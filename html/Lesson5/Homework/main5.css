@@ -1,5 +1,5 @@
 .a{
-    width: 410px;
+    width: 405px;
     height: 100px;
     text-align: center;
 }
@@ -12,13 +12,13 @@
 .b{
     width: 300px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .c{
     width: 100px;
     text-align: center;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 .bc{
     display: flex;
@@ -34,12 +34,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 15px;
 
     }
     .c{
         height: 30px;
         width: 100px;
         margin-left: 0;
+        margin-top: 15px;
     }
     .bc{
         display: flex;
