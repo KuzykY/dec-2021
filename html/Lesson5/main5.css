@@ -1,0 +1,49 @@
+.a{
+    width: 410px;
+    height: 100px;
+    text-align: center;
+}
+.bggray{
+    background: #a6a4a4;
+}
+.h150px{
+    height: 150px;
+}
+.b{
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+}
+.c{
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.bc{
+    display: flex;
+}
+@media screen and (max-width:992px) {
+     .a{
+         height: 30px;
+         width: 100px;
+     }
+    .b{
+        height: 150px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .c{
+        height: 30px;
+        width: 100px;
+        margin-left: 0;
+    }
+    .bc{
+        display: flex;
+        flex-direction: column;
+    }
+p{margin: 0}
+}
