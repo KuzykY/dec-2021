@@ -64,15 +64,63 @@
     justify-content: space-between;
     align-content: flex-start;
     align-items: center;
+    max-height: 886px;
+}
+.header_content{
+    padding:0 257px 0 147px ;
+    margin-bottom: 130px;
 }
 .img_backround{
     position: relative;
-    top: 50px;
+    top: 274px;
+
 }
-.header_img img{
+.img_header{
     position: relative;
-    right: 102px;
+    right: 110px;
+    top:-436px;
 }
-.header_content{
-    padding:0 257px ;
+.header_title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: 0.6px;
+    color: var(--black-color);
 }
+.header_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    padding-top: 20px;
+}
+.btn_header{
+    padding-top: 38px;
+}
+.btn_srart_free{
+    margin-right: 16px;
+    background: var(--yellow-color);
+    width: 163px;
+    border: none;
+}
+.btn_talk{
+    width: 156px;
+    background: white;
+}
+.trust_company{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    width: 547px;
+    height: 96px;
+    padding: 189px 446px 59px;
+}
+.companies{
+}
+.companies_line{
+    display: flex;
+    column-gap: 80px;}
