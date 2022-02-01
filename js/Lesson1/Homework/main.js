@@ -1,3 +1,4 @@
+//Завдання 1
 let text = 'hello';
 let secondText = 'owu';
 let trirdText = 'com';
@@ -29,6 +30,7 @@ console.log(a, b, text, secondText, trirdText, fourthText, firstNumber, tenNumbe
 // alert(b)
 document.write([text,secondText,trirdText,fourthText,firstNumber,tenNumber,negativeNumber,
 ordinalNumber,pi,floatNumbers,numbers,a,b])
+//Завдання 2
 text = 'world';
 secondText = 'okten';
 trirdText = 'gov';
@@ -59,25 +61,26 @@ console.log(a, b, text, secondText, trirdText, fourthText, firstNumber, tenNumbe
 // alert(b)
 document.write([text,secondText,trirdText,fourthText,firstNumber,tenNumber,negativeNumber,
     ordinalNumber,pi,floatNumbers,numbers,a,b])
+//Завдання 3
 let firstName='Юрій';
 let middleName='Любомирович';
 let lastName='Кузик';
 let age=31;
 
 let person=[firstName,middleName,lastName,age]
-
+//Завдання 4
 // prompt('Введіть Імя' )
 // prompt('Введіть По-батькові' )
 // prompt('Введіть Вік')
 // alert('Вітаю ' + firstName +' '+ middleName + '.Тобі ' + age + ' років .')
-
+//Завдання 5
 let aa=100
 console.log(typeof aa)
 let bb='100'
 console.log(typeof bb)
 let c=true
 console.log(typeof c)
-
+//Завдання 6
 console.log(5!==6)
 console.log(5>6)
 console.log(5===6)
@@ -92,6 +95,7 @@ console.log(10<10)
 console.log(123==='123')
 console.log(123 =='123')
 
+//Завдання 7
 // let str = "20";
 // let d = 5;
 // document.write(str + d + "<br/>"); =205,тому що str перетворило d в стрічку,конкантенація.)
