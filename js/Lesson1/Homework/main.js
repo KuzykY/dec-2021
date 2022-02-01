@@ -120,10 +120,10 @@ console.log(123 =='123')
 // const x = 'constant value';
 // {
 //     console.log(a);
-//     x = 'new value';     const неможна змінювати!!!
+//     x = 'new value';    !!! const неможна змінювати!!!
 // }
-// let b = 'new value';      тут має бути без let,бо ми вже ввели змінну b,щоб її змінити треба просто написати b='new value'
+// let b = 'new value';      !!!тут має бути без let,бо ми вже ввели змінну b,щоб її змінити треба просто написати b='new value'!!!
 //
-// let result = 100 + y;
+// let result = 100 + y;     !!!не оголошенна змінна y !!!!
 //
 // console(result);
