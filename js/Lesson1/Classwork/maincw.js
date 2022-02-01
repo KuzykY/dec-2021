@@ -43,8 +43,8 @@ let books = [
     ]
 
 console.log(books[0])
-// console.log(books.topBooks[1])
-// console.log(books.topBooks[2])
+console.log(books[1])
+console.log(books[2])
 
 //Напишіть код, який вираховує площу прямокутника висотою 23см. (змінна height) та шириною 10см (змінна width).
 //    Значення площі зберігати в змінній s.
