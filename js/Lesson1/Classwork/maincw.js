@@ -1,6 +1,10 @@
-//завдання 1
-// let numbers=[4,76,4,9,96,96,-65,-32,90,33]
-// console.log(numbers)
+// //завдання 1!!!!!
+// let numbers=[4,76,4,9,96,82,-65,-32,90,33]
+// let result=(numbers[0+1+2+3+4+5+6+7+8+9])
+// console.log(result)
+
+
+
 //завдання 2
 let book1={
     nameBook1:'Rice assault',
@@ -51,7 +55,7 @@ let dC=4
 const Pi=3.14
 v=Pi*((dC/2)**2)*heightC
 console.log(v)
-//завдання 7
+//завдання 7!!!!
 let n=3
 let m=4
 nm=(n**2)+(m**2)
