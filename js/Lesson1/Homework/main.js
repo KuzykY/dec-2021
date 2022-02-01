@@ -102,3 +102,20 @@ console.log(123 =='123')
 // document.write(str - d + "<br/>");=15;
 // document.write(str * "2" + "<br/>");=40;
 // document.write(str / 2 + "<br/>");=10;
+
+
+//Errors
+// let a = 100;
+// let b = 500;
+// let c = "hello";
+// let d = "okten";
+// const x = 'constant value';
+// {
+//     console.log(a);
+//     x = 'new value';     const неможна змінювати!!!
+// }
+// let b = 'new value';      тут має бути без let,бо ми вже ввели змінну b,щоб її змінити треба просто написати b='new value'
+//
+// let result = 100 + y;
+//
+// console(result);
