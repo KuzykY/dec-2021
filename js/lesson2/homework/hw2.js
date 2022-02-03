@@ -29,12 +29,12 @@
 // У нас є змінна test, якщо дорівнює true, виведіть 'Вірно', інакше виведіть 'Неправильно'.
 //     Перевірте роботу скрипта при test, що дорівнює true, false. Напишіть два варіанти скрипта - з коротким записом(тернаркою)
 
-// let test=1===1
-// if( test===true){
-//     console.log("Вірно")
-// } else {
-//     console.log('Неправильно')
-// }
+let test=1;
+if(test){
+    console.log("Вірно")
+} else {
+    console.log('Неправильно')
+}
 
 // let test= confirm("True or False") ? 'Вірно' : 'Неправильно';
 // console.log(test);
@@ -77,17 +77,19 @@
 //         console.log("Неправильний день тижня")
 // }
 // Потрібно визначити Високосний рік чи ні. Високосні роки діляться націло на 4.
-//  let year= +prompt('Введіть кількість днів у році')
-// if(year %4 ===0){
+// let year= +prompt('Введіть рік')
+// if(year %4 === 0){
 //     console.log('Рік Високосний')
-// } else
+// } else {
+//     console.log('Рік Невисокосний')
+// }
 
 // Використовуючи конструкцію if..else, напишіть код, який запитуватиме: „Яка «офіційна» назва JavaScript?“
 // Якщо користувач вводить «ECMAScript», то показати: «Правильно!», інакше – відобразити: «Не знаєте? ECMAScript!
 
-let JSname=prompt('Яка «офіційна» назва JavaScript?')
-if (JSname==='ECMAScript'){
-    console.log('Правильно!')
-} else {
-    console.log('Не знаєте? ECMAScript!')
-}
+// let JSname=prompt('Яка «офіційна» назва JavaScript?')
+// if (JSname==='ECMAScript'){
+//     console.log('Правильно!')
+// } else {
+//     console.log('Не знаєте? ECMAScript!')
+// }
