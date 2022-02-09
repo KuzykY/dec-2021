@@ -125,7 +125,11 @@
 //
 // // Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
 //
-// function reverseArr() {
-//     let arr=[]
-//     for(i>=0,arr.length-1,i--){}
+// function reverseArr(arr) {
+//     let reverseArray=[]
+//     for(let i=arr.length-1;i>=0;i--){
+//         reverseArray.push(arr[i])
+//     }
+//     return reverseArray
 // }
+// console.log(reverseArr(array))
