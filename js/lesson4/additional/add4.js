@@ -28,18 +28,17 @@
 
 // Створити функцію яка приймає масив будь яких объектів, та повертає масив ключів всіх обєктів
 
-let array=[{id: 43,name:'Yurii',age:31}]
-function objects(arr) {
-    let objectArr=[]
-    let arrKeys=[]
-    for (let arrElement of arr) {
-     objectArr.push(`${arrElement}`)}
-    for (let arrKey in objectArr) {
-        arrKeys.push(`${arrKey}`)
-    }
-    return arrKeys
-}
-console.log(objects(array))
+// let array=[{id: 43,name:'Yurii',age:31}]
+// function objects(arr) {
+//     let objectArr=[]
+//     for (let arrElement of arr) {
+//         for (let arrKey in arrElement){
+//             objectArr.push([arrKey])
+//         }
+//     }
+//     return objectArr
+// }
+// console.log(objects(array))
 
 // Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 
@@ -47,7 +46,9 @@ console.log(objects(array))
 // function objects(arr) {
 //     let objectArr=[]
 //     for (let arrElement of arr) {
-//         objectArr.push(`${arrElement.id},${arrElement.name},${arrElement.age}`)
+//         for (const key in arrElement) {
+//             objectArr.push(arrElement[key])
+//         }
 //     }
 //     return objectArr
 // }
