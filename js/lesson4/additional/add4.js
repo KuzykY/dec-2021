@@ -31,11 +31,13 @@
 let array=[{id: 43,name:'Yurii',age:31}]
 function objects(arr) {
     let objectArr=[]
-    for (let arrKey in arr) {
-        objectArr.push(`${arrKey[0]},${arrKey[1]},${arrKey[2]},`)
+    let arrKeys=[]
+    for (let arrElement of arr) {
+     objectArr.push(`${arrElement}`)}
+    for (let arrKey in objectArr) {
+        arrKeys.push(`${arrKey}`)
     }
-    return objectArr
-
+    return arrKeys
 }
 console.log(objects(array))
 
