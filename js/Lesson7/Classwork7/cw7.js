@@ -9,11 +9,11 @@
 //     this.drive=function (){
 //          console.log(`Їдемо зі швидкістю ${this.maxspeed} на годину`)
 //     }
-//     // info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
-//     this.info=function (){
-//         for (let carKey in this) {
-//             if(typeof carKey==='object'){
-//                 console.log(`${carKey} - ${this[carKey]}`)
+    // info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
+    // this.info=function (){
+    //     for (let carKey in this) {
+    //         if(typeof carKey!=='function'){
+    //             console.log(`${carKey} - ${this[carKey]}`)
 //             }
 //         }
 //     }
@@ -29,11 +29,11 @@
 //     this.addDriver=function (driver){
 //         this.drive=driver
 //     }
-// }
+// // }
 // let nissanCar = new Car('Nissan', 'Japan', 2015, 230, 1.6);
 // console.log(nissanCar)
 // nissanCar.drive()
-// // nissanCar.info() !!!!!!
+// nissanCar.info()
 // nissanCar.increaseMaxSpeed(20)
 // nissanCar.changeYear(2020)
 // nissanCar.info();
@@ -43,7 +43,7 @@
 
 // (Те саме, тільки через клас)
 // Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
-
+//
 // class Car{
 //     constructor(model, producer, year, maxspeed, engine) {
 //         this.model = model;
@@ -56,33 +56,32 @@
 //     drive(){
 //         console.log(`Їдемо зі швидкістю ${this.maxspeed} на годину`)
 //     }
-//     // info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
+//     info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
 //     info(){
 //         for (let carKey in this) {
-//             if(typeof carKey==='object'){
+//             if(typeof carKey!=='function'){
 //                 console.log(`${carKey}-${this[carKey]}`)
 //             }
 //         }
 //     }
-//     // increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
-//     increaseMaxSpeed(newSpeed){
-//         this.maxspeed=this.maxspeed+newSpeed
-//     }
+   // increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
+   //  increaseMaxSpeed(newSpeed){
+   //      this.maxspeed=this.maxspeed+newSpeed
+   //  }
 //     // changeYear (newValue) - змінює рік випуску на значення newValue
 //     changeYear(newValue){
 //         this.year=newValue
 //     }
-//     // addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
-//     addDriver(driver){
-//         this.driver=driver
-//     }
-//
-// }
+    // addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
+    // addDriver(driver){
+    //     this.driver=driver
+    // }
+
 
 //  let nissanCar = new Car('Nissan', 'Japan', 2015, 230, 1.6);
 // console.log(nissanCar)
 // nissanCar.drive()
-// nissanCar.info() !!!!!!!
+// nissanCar.info()
 // nissanCar.increaseMaxSpeed(20)
 // nissanCar.changeYear(2020)
 // nissanCar.info();
