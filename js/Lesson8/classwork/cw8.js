@@ -62,3 +62,26 @@
 
 // отримує всі елементи 'sub-header' та змінює колір тексту у видаку якщо текст елемнту = content 2 segment . Колір отримати з prompt()
 
+// let changeColor=document.getElementsByClassName('sub-header');
+// for (let changeColorElement of changeColor) {
+//     if (changeColorElement.innerText==='content 2 segment'){
+//         changeColorElement.style.corol=prompt("Ввeдіть колір:","red",'blue','yellow')
+//     }
+// }
+
+// отримує елемент з класом content_1 та заміняє  в ньому тест на довільний. Текст отримати з prompt()
+
+// let changeText=document.getElementsByClassName('content_1')
+// changeText[0].innerText=prompt('Введіть текст:')
+
+// отримати елементи p та змінити їм padding на 20px
+
+// let padding=document.getElementsByTagName('p')
+// for (let paddingElement of padding) {
+//     paddingElement.style.padding='20px'
+// }
+
+// отримати елементи з класом text2 та змінити їм текст на назву групи
+
+// let dec=document.getElementsByClassName('text2')
+// dec[0].innerText='dec-2021'
