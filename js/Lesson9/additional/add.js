@@ -236,10 +236,11 @@ let usersList = [
 let users=document.createElement('div')
 users.classList.add('classUsers')
 for (let user of usersList) {
-    let userDiv=document.createElement('div')
+    let userDiv=document.createElement('div');
+    userDiv.style.marginTop='10px'
     for (let userKey in user) {
-        let keyDiv=document.createElement('div')
-        if (user[userKey] !== 'object'){
+        let keyDiv=document.createElement('div');
+        if (typeof user[userKey]!== 'object'){
             keyDiv.innerText=`${userKey} : ${user[userKey]}`
         }
         else {
