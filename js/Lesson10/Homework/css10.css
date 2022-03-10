@@ -1,0 +1,9 @@
+.menu {
+    cursor: pointer;
+}
+.menu.hidden ul {
+    display: none;
+}
+.pHidden {
+    display: none;
+}
