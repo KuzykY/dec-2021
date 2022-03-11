@@ -82,22 +82,22 @@
 //        Якщо людина вводить слово і воно міститься в масиві не цензурних слів кинути алерт з попередженням.
 //        Перевірку робити при натисканні на кнопку
 
-// let swearwords=['duck','fuck','pussy','idiot']
-// let inpute=document.createElement('input');
-// let btn=document.createElement('button');
-// btn.innerText='Перевірка';
-// document.body.append(inpute,btn);
-// btn.addEventListener('click',function () {
-//     let inputValue=inpute.value
-//     for (let word of swearwords) {
-//         if(word === inputValue){
-//             alert("Кря-Кря")
-//             inpute.value=' ';
-//             return
-//         }
-//     }
-//     if(inputValue){
-//         alert('Super');
-//         inpute.value=' ';
-//     }
-// })
+let swearwords=['duck','fuck','pussy','idiot']
+let inpute=document.createElement('input');
+let btn=document.createElement('button');
+btn.innerText='Перевірка';
+document.body.append(inpute,btn);
+btn.addEventListener('click',function () {
+    let inputValue=inpute.value
+    for (let word of swearwords) {
+        if(word === inputValue){
+            alert("Кря-Кря")
+            inpute.value=' ';
+            return
+        }
+    }
+    if(inputValue){
+        alert('Super');
+        inpute.value=' ';
+    }
+})
