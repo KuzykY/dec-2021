@@ -82,22 +82,47 @@
 //        Якщо людина вводить слово і воно міститься в масиві не цензурних слів кинути алерт з попередженням.
 //        Перевірку робити при натисканні на кнопку
 
-let swearwords=['duck','fuck','pussy','idiot']
+// let swearwords=['duck','fuck','pussy','idiot']
+// let inpute=document.createElement('input');
+// let btn=document.createElement('button');
+// btn.innerText='Перевірка';
+// document.body.append(inpute,btn);
+// btn.addEventListener('click',function () {
+//     let inputValue=inpute.value
+//     for (let word of swearwords) {
+//         if(word === inputValue){
+//             alert("Кря-Кря")
+//             inpute.value=' ';
+//             return
+//         }
+//     }
+//     if(inputValue){
+//         alert('Super');
+//         inpute.value=' ';
+//     }
+// })
+
+// - Сворити масив не цензцрних слів.
+//     Сворити інпут текстового типу.
+//     Потрібно перевіряти чи не містить ціле речення в собі погані слова.
+//     Кинути алерт з попередженням у випадку якщо містить.
+//     Перевірку робити при натисканні на кнопку
+
+let swearwords=['duck','fuck','pussy','idiot'];
 let inpute=document.createElement('input');
 let btn=document.createElement('button');
 btn.innerText='Перевірка';
 document.body.append(inpute,btn);
 btn.addEventListener('click',function () {
     let inputValue=inpute.value
-    for (let word of swearwords) {
-        if(word === inputValue){
-            alert("Кря-Кря")
-            inpute.value=' ';
+    for (let swearword of swearwords) {
+        if(swearword.toLowerCase().includes(inputValue)){
+            alert("krya-kray")
             return
         }
     }
     if(inputValue){
-        alert('Super');
-        inpute.value=' ';
+        alert("super")
     }
+
 })
