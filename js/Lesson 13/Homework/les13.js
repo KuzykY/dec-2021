@@ -1,32 +1,32 @@
-// setTimeout(()=>{
-//     let counter=0;
-//     console.log("Розпрядок дня");
-//     setTimeout(()=>{
-//         counter ++;
-//         console.log(`Проснутись`);
-//         setTimeout(()=>{
-//             counter ++;
-//             console.log('Почистити зуби');
-//             setTimeout(()=>{
-//                 counter ++;
-//                 console.log("Поснідати");
-//                 setTimeout(()=>{
-//                     counter ++;
-//                     console.log('Піти на роботу');
-//                     setTimeout(()=>{
-//                         console.log('Зробити домашку)');
-//                         setTimeout(()=>{
-//                             console.log('Прослухати лекцію');
-//                             setTimeout(()=>{
-//                                 console.log('Лягти спати')
-//                             },2000)
-//                         },2000)
-//                     },2000)
-//                 },2000)
-//             },2000)
-//         },2000)
-//     },2000)
-// },2000)
+setTimeout(()=>{
+    let counter=0;
+    console.log("Розпрядок дня");
+    setTimeout(()=>{
+        counter ++;
+        console.log(`Проснутись`);
+        setTimeout(()=>{
+            counter ++;
+            console.log('Почистити зуби');
+            setTimeout(()=>{
+                counter ++;
+                console.log("Поснідати");
+                setTimeout(()=>{
+                    counter ++;
+                    console.log('Піти на роботу');
+                    setTimeout(()=>{
+                        console.log('Зробити домашку)');
+                        setTimeout(()=>{
+                            console.log('Прослухати лекцію');
+                            setTimeout(()=>{
+                                console.log('Лягти спати')
+                            },2000)
+                        },2000)
+                    },2000)
+                },2000)
+            },2000)
+        },2000)
+    },2000)
+},2000)
 //
 // let promise=new Promise((resolve,rejeck)=>{
 //     let counter=0;
